@@ -2,8 +2,8 @@
 {
     public class Soda
     {
-        string taste = string.Empty;
-        Soda(string taste)
+        string taste ;
+        public Soda(string taste = null)
         {
             this.taste = taste;
         }
