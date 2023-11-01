@@ -21,6 +21,18 @@
         {
             Console.WriteLine("Автомобиль заглушен");
         }
+        public void SetColor(string color)
+        {
+            this.color = color;
+        }
+        public void SetType(string type)
+        {
+            this.type = type;
+        }
+        public void SetYear(int year)
+        {
+            this.year = year;
+        }
         public string Color
         {
             get { return color; }
@@ -36,6 +48,7 @@
             get { return year; }
             set { year = value; }
         }
+        //не был уверен можно в задачу просто написать get и set
     }
 }
 
