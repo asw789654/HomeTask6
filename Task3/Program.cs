@@ -1,6 +1,6 @@
 ﻿using Task3;
 
-Car car = new Car("красный","грузовой",1990);
+Car car = new Car("красный", "грузовой", 1990);
 car.Start();
 car.TurnOff();
 car.SetYear(2010);
